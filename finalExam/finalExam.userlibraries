@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Java EE 6-Java EE 6">
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.transaction.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.annotation.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.servlet.jsp.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.persistence.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.jms.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.servlet.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.ejb.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.resource.jar" />
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/javax.servlet.jsp.jstl.jar" />
+  </library>
+  <library name="jstl-1.2">
+    <archive path="E:/PROJECTS/3. java-practice-3/finalExam/lib/jstl-1.2.jar" />
+  </library>
+</eclipse-userlibraries>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- START: introduction servlet -->
+    <servlet>
+        <servlet-name>ServletIntro</servlet-name>
+        <servlet-class>controllers.ServletIntro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletIntro</servlet-name>
+        <url-pattern>/ServletIntro</url-pattern>
+    </servlet-mapping>
+    <!-- END: introduction servlet -->
+
+    <!-- START: display student report servlet -->
+    <servlet>
+        <servlet-name>ServletReport</servlet-name>
+        <servlet-class>controllers.ServletReport</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletReport</servlet-name>
+        <url-pattern>/ServletReport</url-pattern>
+    </servlet-mapping>
+    <!-- END: display student report servlet -->
+
+    <!-- START: modify student detail servlet -->
+    <servlet>
+        <servlet-name>ServletModify</servlet-name>
+        <servlet-class>controllers.ServletModify</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletModify</servlet-name>
+        <url-pattern>/ServletModify</url-pattern>
+    </servlet-mapping>
+    <!-- END: modify student detail servlet -->
+
+    <!-- START: create student detail information servlet -->
+    <servlet>
+        <servlet-name>ServletCreate</servlet-name>
+        <servlet-class>controllers.ServletCreate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCreate</servlet-name>
+        <url-pattern>/ServletCreate</url-pattern>
+    </servlet-mapping>
+    <!-- END: create student detail information servlet -->
+</web-app>

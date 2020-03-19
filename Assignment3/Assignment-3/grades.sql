@@ -1,0 +1,44 @@
+
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `grades`
+--
+DROP DATABASE IF EXISTS grades;
+CREATE DATABASE IF NOT EXISTS `grades` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `grades`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prog32758`
+--
+
+CREATE TABLE IF NOT EXISTS `prog32758` (
+  `StudentID` int(11) NOT NULL,
+  `LastName` varchar(50) NOT NULL,
+  `FirstName` varchar(50) NOT NULL,
+  `Q1` int(11) DEFAULT NULL,
+  `Q2` int(11) DEFAULT NULL,
+  `Q3` int(11) DEFAULT NULL,
+  `Q4` int(11) DEFAULT NULL,
+  `A1` int(11) DEFAULT NULL,
+  `A2` int(11) DEFAULT NULL,
+  `A3` int(11) DEFAULT NULL,
+
+  `MidtermExam` int(11) DEFAULT NULL,
+  `FinalExam` int(11) DEFAULT NULL,
+  PRIMARY KEY (`StudentID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

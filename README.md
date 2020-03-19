@@ -1,2 +1,5 @@
 # java-practice-3
-JavaFX application projects built in IntelIJ IDEA
+Advance java development programs
+
+###NOTE###
+This programs are only for practice. Copying any content from the repo is consider as plagiarism.
